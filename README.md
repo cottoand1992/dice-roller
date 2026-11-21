@@ -1,8 +1,8 @@
 # Dice Roller
 
-A small iPhone app made with SwiftUI. Pick one to six dice, tap Roll, and see the total. The last five rolls are listed at the bottom.
+A small iPhone app made with SwiftUI. Pick one to six dice, tap Roll, and see the total. The last four rolls are kept in a card above the Roll button.
 
-<img src="docs/screenshot.png" width="260" alt="Dice Roller showing two dice and a total of 7">
+<img src="docs/screenshot.png" width="260" alt="Dice Roller showing five dice, the total and the last four rolls">
 
 ## Run it
 
@@ -13,5 +13,5 @@ A small iPhone app made with SwiftUI. Pick one to six dice, tap Roll, and see th
 ## What is inside
 
 - `DiceRoller/DiceRollerApp.swift` starts the app.
-- `DiceRoller/ContentView.swift` is the screen: the dice picker, the Roll button, the total and the history.
+- `DiceRoller/ContentView.swift` is the screen: the dice picker, the dice, the total, the last rolls and the Roll button.
 - `DiceRoller/DieView.swift` draws one die with its dots.
