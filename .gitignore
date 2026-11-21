@@ -1,0 +1,6 @@
+# Mac and Xcode clutter that does not belong on GitHub
+.DS_Store
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
